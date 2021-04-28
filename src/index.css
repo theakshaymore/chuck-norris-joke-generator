@@ -43,7 +43,7 @@ body {
   align-items: center;
 }
 .Character__jokes img {
-  background-color: #272c34;
+  background-color: #6f757e;
   max-width: 100%;
   min-height: 100%;
 }
@@ -68,4 +68,22 @@ body {
 
 .msg {
   color: white;
+}
+
+
+/* css loader added  */
+.loader {
+  margin:6% 0% 6% 0%;
+  border: 7px solid #272c34;
+  border-radius: 50%;
+  border-top: 7px solid white;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

@@ -17,7 +17,7 @@ const Character = () => {
             color: "white",
           }}
         >
-          loading.....
+          <center><div className="loader"></div></center>
         </div>
       )}
       {error && (
